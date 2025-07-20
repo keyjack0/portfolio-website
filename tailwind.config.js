@@ -1,3 +1,5 @@
+const { Outfit } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,10 +10,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        lighHover: '#fcf4ff',
+        darkHover: '#2a004a',
+        darkTheme: '#181818',
       },
+      fontFamily: {
+        Outfit: ["Outfit","sans-serif"],
+        Ovo: ["Ovo","serif"],
+      }
     },
   },
   plugins: [],
