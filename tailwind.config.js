@@ -9,14 +9,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        lighHover: '#fcf4ff',
+      colors: {
+        lightHover: '#f9f6efff',
         darkHover: '#2a004a',
         darkTheme: '#181818',
       },
       fontFamily: {
         Outfit: ["Outfit","sans-serif"],
         Ovo: ["Ovo","serif"],
+      },
+      boxShadow: {
+        'black' : '4px 4px 0 #000',
+        'white' : '4px 4px 0 #fff',
+        'orange' : '4px 4px 0 #F03603'
       }
     },
   },

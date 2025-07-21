@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
         <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-            <Image src={assets.header_bg_color} alt='' className='w-full' />
+            J<Image src={assets.header_bg_color} alt='' className='w-full' />
         </div>
       <nav className='fixed w-full top-0 px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50'>
         <a href="#top">
@@ -30,7 +30,7 @@ const Navbar = () => {
             <button>
                 <Image src={assets.moon_icon} alt='' className='w-6'/>
             </button>
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo'>Contact <Image src={assets.arrow_icon} alt='' className='w-3'/></a>
+            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo hover:-translate-y-1 duration-500 hover:shadow-orange'>Contact <Image src={assets.arrow_icon} alt='' className='w-3'/></a>
             <button className='block md:hidden ml-3' onClick={openMenu}>
                 <Image src={assets.menu_black} alt='' className='w-6'/>
             </button>
